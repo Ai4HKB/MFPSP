@@ -3,11 +3,14 @@
 Protein phosphorylation plays a vital role in signal transduction pathways and diverse cellular processes. To date, a tremendous number of in silico tools have been developed for phosphorylation site identification, but few of them are suitable for the prediction of fungal phosphorylation sites.
 In this paper, we present MFPSP, a machine learning method for species-specific phosphorylation site identification in fungi. 
 
-The source code and datasets are accessible at https://github.com/AIforGenomics/MFPSP/.
+The source code and datasets are accessible at https://github.com/AI4HKB/MFPSP/.
+
+## Fungal speceis
+Eight species are included,  Aspergillus flavus (A. flavus), Aspergillus nidulans (A. nidulans), Cryptococcus neoformans (C. neoformans), Fusarium graminearum (F. graminearum), Magnaporthe oryzae (M. oryzae), Neurospora crassa (N. crassa), Saccharomyces cerevisiae (S. cerevisiae) and Schizosaccharomyces pombe (S. pombe).
 
 ## 2. Availability
 ### 2.1. Datasets and source code are available at:
-https://github.com/AIforGenomics/MFPSP/.
+https://github.com/AI4HKB/MFPSP/.
 
 ### 2.2 Local running
 ### 2.2.1 Environment
@@ -27,7 +30,7 @@ genism==4.2
 
 For convenience, we strongly recommended users to install the Anaconda Python 3.7.3 (or above) in your local computer.
 ### 2.2.2 Running
-Changing working dir to MFPSP-master_source_code. For example, if we want to predict the S site in S. cerevisiae, we should use the following command:
+Changing working dir to MFPSP-master_source_code. For example, if we want to predict the S site of S. cerevisiae, we should use the following command:
 
 #### python MFPSP.py -i testing.fasta -s sacch -t s -o prediction_results.csv
 
