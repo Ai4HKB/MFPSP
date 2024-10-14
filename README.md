@@ -9,6 +9,7 @@ The source code and datasets are accessible at https://github.com/AI4HKB/MFPSP/.
 Eight species are included,  Aspergillus flavus (A. flavus), Aspergillus nidulans (A. nidulans), Cryptococcus neoformans (C. neoformans), Fusarium graminearum (F. graminearum), Magnaporthe oryzae (M. oryzae), Neurospora crassa (N. crassa), Saccharomyces cerevisiae (S. cerevisiae) and Schizosaccharomyces pombe (S. pombe).
 ## 3. Sequence featurs
 physicochemical features: AAC, CTDC, EAAC, PAAC, QSOrder and BINARY.
+
 Embedding‑based feature: FastText.
 
 ## 2. Availability
