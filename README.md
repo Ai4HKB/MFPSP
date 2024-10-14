@@ -11,6 +11,10 @@ Eight species are included,  Aspergillus flavus (A. flavus), Aspergillus nidulan
 physicochemical features: AAC, CTDC, EAAC, PAAC, QSOrder and BINARY.
 
 Embedding‑based feature: FastText.
+## 4. MFPSP framefowk
+
+
+
 
 ## 2. Availability
 ### 2.1. Datasets and source code are available at:
