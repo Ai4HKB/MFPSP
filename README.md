@@ -12,16 +12,15 @@ physicochemical features: AAC, CTDC, EAAC, PAAC, QSOrder and BINARY.
 
 Embedding‑based feature: FastText.
 ## 4. MFPSP framefowk
+<img src="https://github.com/Ai4HKB/MFPSP/blob/main/MFPSP.png" width="800px">
 
 
-
-
-## 2. Availability
-### 2.1. Datasets and source code are available at:
+## 5. Availability
+### 5.1. Datasets and source code are available at:
 https://github.com/AI4HKB/MFPSP/.
 
-### 2.2 Local running
-### 2.2.1 Environment
+### 5.2 Local running
+### 5.2.1 Environment
 Before running, please make sure the following packages are installed in Python environment:
 
 pandas==1.1.3
@@ -37,7 +36,7 @@ scikit-learn==0.24.2
 genism==4.2
 
 For convenience, we strongly recommended users to install the Anaconda Python 3.7.3 (or above) in your local computer.
-### 2.2.2 Running
+### 5.2.2 Running
 Changing working dir to MFPSP-master_source_code. For example, if we want to predict the S site of S. cerevisiae, we should use the following command:
 
 #### python MFPSP.py -i testing.fasta -s sacch -t s -o prediction_results.csv
@@ -53,3 +52,6 @@ neuro: N. crassa;       sacch: S. cerevisiae;    schizo: S. pombe
 -t: phosphorylation_type, it should be s, y, or t
 
 -o: name of output_file (folder “results” is the default file path for result save).
+
+## 6. Reference
+Chao Wang, Quan Zou. MFPSP: Exploring physicochemical and distributed representation features using offspring competition-based genetic algorithm for species-specific phosphorylation site identification in fungi (submitted)
