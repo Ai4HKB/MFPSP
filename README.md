@@ -18,7 +18,7 @@ Embedding‑based feature: FastText.
 ## 5. Availability
 ### 5.1. Datasets and source code are available at:
 https://github.com/AI4HKB/MFPSP/.
-
+As the limitation of file size of gihub, the trained models are deposited at Zenodo. Please download it form and unzip it to folder "model" in source code.
 ### 5.2 Local running
 ### 5.2.1 Environment
 Before running, please make sure the following packages are installed in Python environment:
