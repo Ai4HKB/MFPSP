@@ -54,4 +54,4 @@ neuro: N. crassa;       sacch: S. cerevisiae;    schizo: S. pombe
 -o: name of output_file (folder “results” is the default file path for result save).
 
 ## 6. Reference
-Chao Wang, Quan Zou. MFPSP: Exploring physicochemical and distributed representation features using offspring competition-based genetic algorithm for species-specific phosphorylation site identification in fungi (submitted)
+Chao Wang, Quan Zou. MFPSP: Identification of fungal speciesspecific phosphorylation site using offspring competition-based genetic algorithm, PLoS Computational Biology,2024, 20(11): e1012607 (DOI:10.1371/journal.pcbi.1012607).
